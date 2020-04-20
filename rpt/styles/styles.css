@@ -1,0 +1,87 @@
+
+body{
+    background-color: #FEE3DA;
+  }
+.game{
+   
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+#h1{
+    color: #C79243;
+    text-align:center;
+    font-size: 30px;
+  }
+
+  
+  
+  #p{
+    color:#8B6B49;
+   text-align: center;
+   font-size: 14px;;
+  }
+#rock{
+    background-image: url( '../images/rps.jpg' ) ;
+    background-position: -75px -35px;
+    width: 100px;
+    height: 150px;
+    border: none;
+    margin-top: -10px;
+}
+#paper{
+    background-image: url( '../images/rps.jpg' ) ;
+    background-position: -205px 0px;
+    width: 100px;
+    height: 150px;  
+    border: none;
+    margin-top: -10px;
+}
+
+#scissors{
+    background-image: url( '../images/rps.jpg' ) ;
+    background-position: -335px -20px;
+    width: 100px;
+    height: 150px;  
+    border: none;
+    margin-top: -10px;
+}
+
+.gif{
+    display:flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.score{
+    display:flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+p{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color:#8B6B49;
+    text-align: center;
+
+}
+.p {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+
+}
+.c{
+    margin-right: 10vw;
+    margin-left: 10vw; 
+    margin-top: 5vh;
+}
+#ps{
+    padding-left: 20px;
+
+}
+#cs{
+    padding-left: 35px;
+
+}
